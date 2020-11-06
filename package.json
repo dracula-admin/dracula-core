@@ -1,0 +1,19 @@
+{
+  "name": "@dracula/core",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pineappleDevsBr/dracula-core.git"
+  },
+  "author": "pineappleDevs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pineappleDevsBr/dracula-core/issues"
+  },
+  "homepage": "https://github.com/pineappleDevsBr/dracula-core#readme"
+}
