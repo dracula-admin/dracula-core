@@ -1,19 +1,52 @@
 {
-  "name": "@dracula/core",
+  "name": "@dracula-admin/core",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "dracula-admin vue layout components",
+  "homepage": "https://github.com/pineappleDevsBr/dracula-core#readme",
+  "main": "dist/index.js",
+  "keywords": [
+    "dracula-core",
+    "vue",
+    "vue-component",
+    "vue-library",
+    "framework",
+    "responsive",
+    "layout",
+    "component",
+    "components"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:esm": "rollup -c"
+  },
+  "author": {
+    "name": "pineappleDevsBr",
+    "url": "https://github.com/pineappleDevsBr"
+  },
+  "contributors": [
+    {
+      "name": "Leandro C. Silva",
+      "url": "https://github.com/LeandroCesarr"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@vue/compiler-sfc": "^3.0.2",
+    "babel-loader": "^8.2.1",
+    "rollup": "^2.33.1",
+    "rollup-plugin-css-only": "^2.1.0",
+    "rollup-plugin-stylus-compiler": "^1.0.1",
+    "rollup-plugin-vue": "^6.0.0-beta.10",
+    "vue-loader": "^16.0.0-rc.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pineappleDevsBr/dracula-core.git"
-  },
-  "author": "pineappleDevs",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pineappleDevsBr/dracula-core/issues"
-  },
-  "homepage": "https://github.com/pineappleDevsBr/dracula-core#readme"
+  }
 }
