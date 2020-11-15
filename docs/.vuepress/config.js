@@ -1,5 +1,4 @@
 module.exports = {
-  base: '/dracula-core/',
   title: 'dracula-core',
   description: '[description]',
   head: [
