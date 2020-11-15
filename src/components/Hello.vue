@@ -1,17 +1,16 @@
 <template>
   <div>
-    <h1>Hello !!!, i'm first component</h1>
+    <h1>Hello !!!, {{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-
+  props: {
+    msg: {
+      type: String,
+      default: '',
+    }
+  }
 }
 </script>
-
-<style scoped>
-p {
-  color: tomato
-}
-</style>

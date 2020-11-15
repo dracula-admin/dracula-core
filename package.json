@@ -16,7 +16,9 @@
     "components"
   ],
   "scripts": {
-    "build:esm": "rollup -c"
+    "build:esm": "rollup -c",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "author": {
     "name": "pineappleDevsBr",
@@ -37,7 +39,8 @@
     "rollup-plugin-css-only": "^2.1.0",
     "rollup-plugin-stylus-compiler": "^1.0.1",
     "rollup-plugin-vue": "^6.0.0-beta.10",
-    "vue-loader": "^16.0.0-rc.1"
+    "vue-loader": "^16.0.0-rc.1",
+    "vuepress": "^1.0.0-rc.1"
   },
   "peerDependencies": {
     "vue": "^3.0.2"

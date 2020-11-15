@@ -7,15 +7,24 @@ const baseOptions = {
 
 export default {
   install(app, customOptions) {
-    if (app.config.globalProperties.$draculaCore) {
-      return
-    }
+
+    // // Vue 2
+    // if (app.prototype.$draculaCore) {
+    //   return
+    // }
+    // app.prototype.$draculaCore = {
+    //   installed: true
+    // }
+
+    // Vue 3
+    // if (app.config.globalProperties.$draculaCore) {
+    //   return
+    // }
+    // app.config.globalProperties.$draculaCore = {
+    //   installed: true
+    // }
 
     const options = Object.assign({}, baseOptions, customOptions);
-
-    app.config.globalProperties.$draculaCore = {
-      installed: true
-    }
 
     Object
       .entries(components)
