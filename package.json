@@ -19,7 +19,8 @@
     "dev": "rollup -c -w",
     "build": "rollup -c",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "test-component": "vue serve ./src/development.vue"
   },
   "author": {
     "name": "pineappleDevsBr",
@@ -29,6 +30,10 @@
     {
       "name": "Leandro C. Silva",
       "url": "https://github.com/LeandroCesarr"
+    },
+    {
+      "name": "Fernando Souza Marques",
+      "url": "https://github.com/FernandoSouzaMarques"
     }
   ],
   "license": "MIT",
