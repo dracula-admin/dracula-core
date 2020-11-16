@@ -1,3 +1,30 @@
-:root {
-  --color-base: #222222
+@require './config/fonts';
+@require './config/variables';
+@require './modules/colors';
+@require './modules/typography';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $fontFamily.main;
+  margin: 0;
+  min-height: 100%;
+  position: relative;
+}
+
+input, select {
+  border-radius: 0;
+}
+
+input[type='search'] {
+  -webkit-appearance: none;
 }

@@ -1,0 +1,7 @@
+$colorPrefix = '--color-'
+
+:root {
+  for key, value in $colors {
+    {$colorPrefix}{key}: value;
+  }
+}
