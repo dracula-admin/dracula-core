@@ -1,0 +1,18 @@
+[class^='drac-icon-bf-']::before, [class*=' drac-icon-bf-']::before, [class^='drac-icon-af-']::after, [class*=' drac-icon-af-']::after {
+  font-family: $fontFamily.icon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-display: block;
+}
+
+for key, value in $icons {
+  .drac-icon-bf-{key}::before, .drac-icon-af-{key}::after {
+    content: value;
+  }
+}

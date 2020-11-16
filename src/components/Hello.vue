@@ -10,7 +10,7 @@ export default {
     msg: {
       type: String,
       default: '',
-    }
-  }
+    },
+  },
 }
 </script>
