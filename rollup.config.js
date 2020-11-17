@@ -14,9 +14,9 @@ export default {
       }
   },
   plugins: [
+    vue(),
     stylus(),
     css(),
-    vue(),
     copy({
       targets: [
         { src: 'src/assets/fonts/icons/*', dest: 'dist/fonts/icons' }
